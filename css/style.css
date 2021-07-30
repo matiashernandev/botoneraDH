@@ -139,12 +139,17 @@ button::after {
   #image {
     display: none;
   }
+  #container {
+    -webkit-box-pack: right;
+        -ms-flex-pack: right;
+            justify-content: right;
+  }
 }
 
 #stop {
   position: fixed;
   right: 30px;
-  bottom: 25px;
+  bottom: 50px;
   z-index: 500;
   content: none;
 }
