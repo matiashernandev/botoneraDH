@@ -1,7 +1,7 @@
 const audios = [];
 let currentAudio = null;
 // let advice = new Audio("./src/audio/kahoot.ogg");
-const letters = "abcdefghijklmnñopqrstuvwxyz";
+const letters = "abcdefghijklmnñopqrstuvwxyz1";
 
 for (let i = 0; i < letters.length; i++) {
     audios[letters[i]] = new Audio("./src/audio/" + letters[i] + ".ogg");
